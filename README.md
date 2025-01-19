@@ -10,7 +10,7 @@
 - Python version 3.11.11
   
 **Data Sources**:  
-- Ecoinvent v3.10 (cut-off system)  
+- Ecoinvent v3.10 cut-off system (https://ecoinvent.org/)  
 - KTB1 model - DTU (https://github.com/Boskabadi/KTB1-DLCA)
 - entsoe -  (https://transparency.entsoe.eu/) 
 
