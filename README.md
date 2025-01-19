@@ -11,7 +11,8 @@
   
 **Data Sources**:  
 - Ecoinvent v3.10 (cut-off system)  
-- KTB1 model (DTU)
+- KTB1 model - DTU (https://github.com/Boskabadi/KTB1-DLCA)
+- entsoe -  (https://transparency.entsoe.eu/) 
 
 ---
 
