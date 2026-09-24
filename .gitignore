@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local research inputs and unreviewed outputs
+data/local/
+model/local/
+results/
+*.asv
+*.slxc
+slprj/
+.DS_Store
+Thumbs.db

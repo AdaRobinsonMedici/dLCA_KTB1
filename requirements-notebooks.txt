@@ -1,0 +1,15 @@
+# Candidate dependency list, NOT a verified lockfile.
+# Based on supplied notebook imports and recorded development metadata.
+# Install MATLAB Engine separately for the actual MATLAB release.
+brightway25==1.1.0
+ecoinvent-interface==3.1
+bw-temporalis==1.2.0
+bw-graph-tools==0.6
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.1
+matplotlib
+seaborn
+entsoe-py
+requests
+jupyterlab

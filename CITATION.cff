@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this repository and record the commit used. Publication and release DOI metadata are pending confirmation."
+type: software
+title: "dLCA_KTB1: A computational framework for real-time gate-to-gate dynamic life cycle assessment of continuous operations"
+authors:
+  - family-names: "Robinson Medici"
+    given-names: "Ada"
+  - family-names: "Boskabadi"
+    given-names: "Mohammad Reza"
+  - family-names: "Ramin"
+    given-names: "Pedram"
+  - family-names: "Mansouri"
+    given-names: "Seyed Soheil"
+  - family-names: "Papadokonstantakis"
+    given-names: "Stavros"
+repository-code: "https://github.com/AdaRobinsonMedici/dLCA_KTB1"
+url: "https://github.com/AdaRobinsonMedici/dLCA_KTB1"
+abstract: "Development implementation of a general framework coupling time-resolved foreground and background inventories for gate-to-gate dynamic LCA of continuous operations, demonstrated with KTB1. Not yet a verified final-paper reproduction package."
+keywords:
+  - dynamic life cycle assessment
+  - continuous operations
+  - gate-to-gate
+  - digital twin
+  - Brightway
+  - KTB1
