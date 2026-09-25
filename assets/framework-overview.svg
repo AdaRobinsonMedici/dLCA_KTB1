@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1010" viewBox="0 0 1120 1010" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic LCA: framework, implementation and case-study scope</title>
+  <desc id="desc">The dynamic LCA framework couples time-dependent foreground inventories with background supply and treatment inventories. The KTB1 case study covers gate-to-gate operation of continuous lovastatin production and modelled cleaning-in-place. Hourly DK2 electricity shares and static non-electricity background datasets are combined with process inventories to calculate environmental indicators for monitoring, scenario comparison and campaign scheduling. The functional unit is 40 milligrams of purified lovastatin. Cleaning-in-place is represented by a wastewater-only proxy that excludes cleaning electricity and chemicals.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1528"/><stop offset="1" stop-color="#111d32"/></linearGradient>
+    <linearGradient id="framework" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#102d3c"/><stop offset="1" stop-color="#222946"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5ae0cb"/><stop offset="1" stop-color="#9996ff"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#7294ae" stroke-width="1.6"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .ink { fill: #edf5ff; }
+      .muted { fill: #b4c5d8; }
+      .overline { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+      .small { font-size: 16px; }
+      .body { font-size: 18px; }
+      .heading { font-size: 24px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1118" height="1008" rx="24" fill="url(#page)" stroke="#2b3b52"/>
+  <rect x="40" y="41" width="48" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="103" y="49" class="overline" fill="#91e8dc">DYNAMIC LIFE CYCLE ASSESSMENT</text>
+  <text x="40" y="101" font-size="34" font-weight="700" class="ink">A computational framework for dynamic LCA</text>
+  <text x="40" y="136" font-size="21" class="muted">Continuous operations · Gate-to-gate assessment · KTB1 case study</text>
+
+  <text x="40" y="184" class="overline muted">01 / CONNECT THE INVENTORIES</text>
+  <rect x="40" y="205" width="508" height="282" rx="16" fill="#10262e" stroke="#4aa895" stroke-width="1.5" stroke-dasharray="7 5"/>
+  <rect x="62" y="225" width="215" height="27" rx="13.5" fill="#21423f"/>
+  <text x="78" y="244" font-size="12" font-weight="700" letter-spacing="1.4" fill="#91e8dc">FOREGROUND BOUNDARY</text>
+  <text x="62" y="289" class="heading ink">Gate-to-gate operations</text>
+  <text x="62" y="319" class="body muted">Time-dependent process inventories</text>
+  <rect x="62" y="343" width="218" height="57" rx="10" fill="#193b40"/>
+  <text x="84" y="378" font-size="19" font-weight="700" fill="#b4f1e8">Production</text>
+  <rect x="295" y="343" width="229" height="57" rx="10" fill="#193b40"/>
+  <text x="316" y="378" font-size="19" font-weight="700" fill="#b4f1e8">Modelled CIP*</text>
+  <text x="62" y="437" class="small muted">KTB1 production + prescribed CIP proxy</text>
+  <text x="62" y="463" class="small muted">Dynamic simulation of continuous lovastatin production</text>
+
+  <rect x="568" y="205" width="512" height="282" rx="16" fill="#1a2039" stroke="#5e659a" stroke-width="1.5"/>
+  <rect x="590" y="225" width="294" height="27" rx="13.5" fill="#303458"/>
+  <text x="606" y="244" font-size="12" font-weight="700" letter-spacing="1.4" fill="#c8c5ff">BACKGROUND SUPPLY INVENTORIES</text>
+  <text x="590" y="289" class="heading ink">Electricity and other inputs</text>
+  <text x="590" y="319" class="body muted">Linked inventories from ecoinvent</text>
+  <circle cx="600" cy="357" r="5" fill="#a5a0ff"/>
+  <text x="617" y="364" class="body ink">DK2 electricity mix: time-varying</text>
+  <circle cx="600" cy="395" r="5" fill="#7e91b2"/>
+  <text x="617" y="402" class="body ink">Other background inventories: static</text>
+  <text x="590" y="437" class="small muted">Includes supply-chain / treatment burdens</text>
+  <text x="590" y="463" class="small muted">Material supply, utilities and waste treatment</text>
+
+  <path d="M294 488 V534 H435 V564" fill="none" stroke="#7294ae" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M824 488 V534 H685 V564" fill="none" stroke="#7294ae" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="40" y="569" width="1040" height="174" rx="16" fill="url(#framework)" stroke="#536c91"/>
+  <rect x="40" y="587" width="4" height="138" rx="2" fill="url(#accent)"/>
+  <text x="65" y="603" class="overline" fill="#91e8dc">02 / REUSABLE COMPUTATIONAL FRAMEWORK</text>
+  <text x="65" y="642" class="heading ink">Connect process dynamics with environmental assessment</text>
+  <rect x="65" y="669" width="268" height="47" rx="9" fill="#142339" stroke="#405a72"/>
+  <text x="83" y="699" class="body ink">1. Align time steps</text>
+  <path d="M345 692 H372" fill="none" stroke="#8aa5bd" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="384" y="669" width="318" height="47" rx="9" fill="#142339" stroke="#405a72"/>
+  <text x="403" y="699" class="body ink">2. Assemble inventories</text>
+  <path d="M714 692 H741" fill="none" stroke="#8aa5bd" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="753" y="669" width="302" height="47" rx="9" fill="#142339" stroke="#405a72"/>
+  <text x="772" y="699" class="body ink">3. Characterize impacts</text>
+  <path d="M560 744 V775" fill="none" stroke="#7294ae" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="782" width="1040" height="104" rx="16" fill="#172235" stroke="#34485f"/>
+  <text x="65" y="814" class="overline" fill="#bfcae0">03 / ENVIRONMENTAL DECISION SUPPORT</text>
+  <text x="65" y="850" font-size="22" font-weight="700" class="ink">Environmental signals · Scenario comparison · Campaign scheduling</text>
+
+  <path d="M40 914 H1080" stroke="#344358"/>
+  <text x="40" y="945" font-size="17" class="ink"><tspan font-weight="700" fill="#91e8dc">CASE STUDY</tspan><tspan dx="14">40 mg purified lovastatin · Historical simulation</tspan></text>
+  <text x="40" y="976" class="small muted">*CIP = cleaning-in-place. Wastewater-only proxy; cleaning electricity and chemicals excluded.</text>
+</svg>
